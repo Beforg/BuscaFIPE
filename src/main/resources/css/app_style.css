@@ -1,0 +1,65 @@
+.principal_pane {
+    -fx-background-color: #EADDB3;
+}
+
+.choice_box {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+    -fx-border-width: 1;
+    -fx-border-radius: 4
+}
+
+.choice_box:hover {
+    -fx-background-color: #D1E8EB;
+}
+
+.vBox_pane {
+    -fx-border-color: black;
+    -fx-border-width: 1.5;
+    -fx-border-radius: 10;
+}
+
+.normal_text {
+    -fx-font-family: "Arial";
+    -fx-font-size: 14;
+    -fx-text-fill: black;
+}
+
+.title_text {
+    -fx-font-family: "Verdana";
+    -fx-font-size: 20;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-padding: 5;
+}
+
+.label_valor {
+    -fx-font-family: "Arial";
+    -fx-text-fill: green;
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+}
+.label_infos {
+    -fx-font-family: "Arial";
+    -fx-font-size: 12;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+.button {
+    -fx-background-color: #D1E8EB;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+    -fx-border-width: 1;
+    -fx-border-radius: 4;
+    -fx-font-family: "Arial";
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+}
+.button:hover {
+    -fx-background-color: #D7E6CE;
+}
+.button:pressed{
+    -fx-background-color: #A9C4A6;
+
+}
