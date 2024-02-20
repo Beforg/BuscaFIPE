@@ -85,7 +85,6 @@ public class Listener {
                     select_ano.getItems().add(fatoraItem);
                 }
                 FXCollections.sort(select_ano.getItems());
-                System.out.println(json);
                 listenerAno(select_ano, select_modelo, select_marca, select_opcao, consumoApi, buscador, converteDados, URL_PRINCIAL);
             }
         });
@@ -103,7 +102,7 @@ public class Listener {
                 var json = consumoApi.obertDados(buscador.resultadoFinal(select_ano, buscador.buscarAno(select_modelo, buscador.buscarModelo(select_marca, buscador.buscarMarca(select_opcao, URL_PRINCIAL)))));
                 var resultado = converteDados.converteDado(json, DadosFinais.class);
                 MainController.resultado = resultado;
-                System.out.println(resultado);
+
             }
         });
     }

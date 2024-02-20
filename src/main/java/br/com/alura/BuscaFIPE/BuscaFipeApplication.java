@@ -31,6 +31,7 @@ public class BuscaFipeApplication extends Application {
 		FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/main.fxml"));
 		Scene scene = new Scene(fxmlLoader.load());
 		stage.setScene(scene);
+		stage.setTitle("Busca FIPE");
 		stage.setResizable(false);
 		stage.show();
 

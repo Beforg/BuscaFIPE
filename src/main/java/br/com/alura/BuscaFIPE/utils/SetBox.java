@@ -1,7 +1,6 @@
 package br.com.alura.BuscaFIPE.utils;
 
 import br.com.alura.BuscaFIPE.controller.MainController;
-import br.com.alura.BuscaFIPE.model.DadosFinais;
 import br.com.alura.BuscaFIPE.model.Opcao;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Label;
